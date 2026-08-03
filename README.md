@@ -23,7 +23,13 @@ Test Case #1: Rockband Unplugged
 5. repeat for eboot, and if available, UMD
 
 Test Case #2: LittleBigPlanet
-1. boot the game
+1. boot the game ISO
 2. Continue through the data/patch install process
-3. Complete the intro level
-4. At the world map, launch the turbo level
+3. Play the intro level, stopping in front of the camera under "Introducing"
+4. press square to open the menu
+5. select customize character
+6. Under 'head' verify that both the bunny hat and the santa's helper hat are available
+7. complete the intro level and return to the world map
+8. At the world map, navigate to purchase levels
+9. verify the turbo level is available (0% complete)
+10. repeat for eboot, and UMD
