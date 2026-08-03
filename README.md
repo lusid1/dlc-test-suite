@@ -22,3 +22,8 @@ Test Case #1: Rockband Unplugged
 4. test both tracks to verify the play
 5. repeat for eboot, and if available, UMD
 
+Test Case #2: LittleBigPlanet
+1. boot the game
+2. Continue through the data/patch install process
+3. Complete the intro level
+4. At the world map, launch the turbo level

@@ -59,7 +59,7 @@ pkg2zip/pkg2zip -p -x $pkg
 
 # now we need 2 DLC 
 dlc1="UP9000-UCUS98744_00-LBPPDLCSONYLP007" # Easter Pack
-dlc2="UP9000-UCUS98744_00-LBPPDLCSONYLP006" # Yuletide Sack
+dlc2="UP9000-UCUS98744_00-LBPPDLCSONYPK001" # Turbo level kit
 dlcpkg1="pkg/$dlc1.pkg"
 dlcpkg2="pkg/$dlc2.pkg"
 echo "fetching $(cat $dlc_db | grep $dlc1 | cut -f 3)"
