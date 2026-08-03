@@ -7,12 +7,13 @@ This tools builds a test dataset for verify DLC loading functionality
 
 Test Matrix:
 | Base game format | DLC Format |
-| UMD | Encrypted |
-| UMD | Decrypted |
-| ISO | Encrypted |
-| ISO | Decrypted |
-| EBOOT | Encrypted |
-| EBOOT | Decrypted |
+| ---------------- | ---------- |
+| UMD              | Encrypted  |
+| UMD              | Decrypted  |
+| ISO              | Encrypted  |
+| ISO              | Decrypted  |
+| EBOOT            | Encrypted  |
+| EBOOT            | Decrypted  |
 
 Test Case #1: Rockband Unplugged
 1. boot game ISO
