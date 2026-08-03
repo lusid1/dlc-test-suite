@@ -1,0 +1,6 @@
+data/PSP_DLCS.tsv
+data/PSP_GAMES.tsv
+data/PSP_UPDATES.tsv
+pkg/*
+pkg2zip/*
+pspemu/*
