@@ -50,5 +50,9 @@ Test Case #4: Patapon
 Notes:
 - This title take a long time to test until you create your first save.
 
+Test Case 5: TG16 titles
+1. launch each title individually and make sure they go in game.  
 
+Note:
+- These games use DLC mechanics to load their roms.  So if DLC loading fails they will hang at the loading screen.
 
