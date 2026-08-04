@@ -40,3 +40,14 @@ Notes:
 - You can also check the DLC by launching the Turbo level.
 
 
+Test Case #3: Buzz! Quiz World
+1. launch game
+2. create profile if required
+3. on the main menu, select quiz packs
+4. verify both the rock idols quiz and videogames packs are listed
+
+Notes:
+- there is no UMD version of this title
+- You can play test the quiz packs by selecting Quiz packs from the single player game menu
+
+
