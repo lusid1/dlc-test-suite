@@ -34,4 +34,9 @@ Test Case #2: LittleBigPlanet
 9. verify the turbo level is available (0% complete)
 10. repeat for eboot, and UMD
 
+Notes:
+- Subsequent launches will go faster because the patch is installed and the mandatory intro level has been completed.
+- Pressing circle skips the intro video
+- You can also check the DLC by launching the Turbo level.
+
 
