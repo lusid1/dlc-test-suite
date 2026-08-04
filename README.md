@@ -25,9 +25,9 @@ Test Case #1: Rockband Unplugged
 Test Case #2: LittleBigPlanet
 1. boot the game ISO
 2. Continue through the data/patch install process
-3. Play the intro level, stopping in front of the camera under "Introducing"
+3. Start the intro level
 4. press square to open the menu
-5. select customize character
+5. select customize character, press right to navigate to the head panel
 6. Under 'head' verify that both the bunny hat and the santa's helper hat are available
 7. complete the intro level and return to the world map
 8. At the world map, navigate to purchase levels
