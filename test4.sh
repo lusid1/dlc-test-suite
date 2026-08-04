@@ -14,7 +14,7 @@ wget "$(cat $games_db | grep $cid | cut -f 5)" -O $pkg
 pkg2zip/pkg2zip -x $pkg
 pkg2zip/pkg2zip -p -x $pkg
 
-# now we need 2 DLC 
+# now we need 2 DLC  and the world map
 dlc1="UP9000-UCUS98751_00-DLM0000000000006" # Mission Pack 1 - Witch and the Thunderbeast
 dlc2="UP9000-UCUS98751_00-DLM0000000000010" # Mission Pack 1 - Terantus
 dlc3="UP9000-UCUS98751_00-DLMC000000000000" # World Map
@@ -29,5 +29,5 @@ echo "fetching $(cat $dlc_db | grep $dlc3 | cut -f 3)"
 wget "$(cat $dlc_db | grep $dlc3 | cut -f 4)" -O $dlcpkg3
 pkg2zip/pkg2zip -d -x $dlcpkg1 # decrypted
 pkg2zip/pkg2zip -p -x $dlcpkg2 # encrypted
-pkg2zip/pkg2zip -p -x $dlcpkg2 # encrypted (world map)
+pkg2zip/pkg2zip -p -x $dlcpkg3 # encrypted (world map)
 
