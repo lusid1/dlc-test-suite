@@ -5,25 +5,14 @@ This tools builds a test dataset for verify DLC loading functionality
 1. Run ./build.sh
 2. copy the contents of the pspemu folder to the root of the PSP memory card or to the pspemu folder on vita
 
-Test Matrix:
-| Base game format | DLC Format |
-| ---------------- | ---------- |
-| UMD              | Encrypted  |
-| UMD              | Decrypted  |
-| ISO              | Encrypted  |
-| ISO              | Decrypted  |
-| EBOOT            | Encrypted  |
-| EBOOT            | Decrypted  |
-
 Test Case #1: Rockband Unplugged
-1. boot game ISO
+1. boot game
 2. navigate to Quickplay mode
 3. verify both "alive" and "3's and 7's" appear in the track list
 4. test both tracks to verify the play
-5. repeat for eboot, and if available, UMD
 
 Test Case #2: LittleBigPlanet
-1. boot the game ISO
+1. boot the game
 2. Continue through the data/patch install process
 3. Start the intro level
 4. press square to open the menu
@@ -32,7 +21,6 @@ Test Case #2: LittleBigPlanet
 7. complete the intro level and return to the world map
 8. At the world map, navigate to purchase levels
 9. verify the turbo level is available (0% complete)
-10. repeat for eboot, and UMD
 
 Notes:
 - Subsequent launches will go faster because the patch is installed and the mandatory intro level has been completed.
@@ -49,5 +37,18 @@ Test Case #3: Buzz! Quiz World
 Notes:
 - there is no UMD version of this title
 - You can play test the quiz packs by selecting Quiz packs from the single player game menu
+
+Test Case #4: Patapon
+1. launch game
+2. Play through the intro level until you get to the cavernous hideout
+3. Use the master obelisk to access the world map
+4. You should get "Download quest world map found" when accessing the obelisk
+5. Continue to "Download Quest" on the world map
+6. To the right, verify you have "Field of Angry Giants" 
+7. further to the right, verify you have "Snow Field of Sullied Tears"
+
+Notes:
+- This title take a long time to test until you create your first save.
+
 
 
