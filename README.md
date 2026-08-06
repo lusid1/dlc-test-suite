@@ -1,5 +1,5 @@
 # About
-This tools builds a test dataset for verify DLC loading functionality
+This tool builds a test dataset to verify DLC loading functionality
 
 # Usage
 - To build all test cases run ./all.sh
