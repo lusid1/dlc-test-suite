@@ -13,19 +13,11 @@ cd ..
 
 # We also need data sources
 mkdir data
-mkdir pkg
 cd data
 wget https://nopaystation.com/tsv/PSP_GAMES.tsv
 wget https://nopaystation.com/tsv/PSP_UPDATES.tsv
 wget https://nopaystation.com/tsv/PSP_DLCS.tsv
 cd ..
-games_db="data/PSP_GAMES.tsv"
-updates_db="data/PSP_UPDATES.tsv"
-dlc_db="data/PSP_DLCS.tsv"
+mkdir pkg
 
-# and we need to build the test data sets
-./test1.sh
-./test2.sh
-./test3.sh
-./test4.sh
-./test5.sh
+

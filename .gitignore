@@ -4,3 +4,4 @@ data/PSP_UPDATES.tsv
 pkg/*
 pkg2zip/*
 pspemu/*
+pkg2zip

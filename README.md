@@ -1,17 +1,17 @@
 # About
 This tools builds a test dataset for verify DLC loading functionality
 
-# Setup
-1. Run ./build.sh
-2. copy the contents of the pspemu folder to the root of the PSP memory card or to the pspemu folder on vita
+# Usage
+- To build all test cases run ./all.sh
+- To build selected test cases, run ./prep.sh followed by the script for the desired test cases.
 
-Test Case #1: Rockband Unplugged
+## Test Case #1: Rockband Unplugged
 1. boot game
 2. navigate to Quickplay mode
 3. verify both "alive" and "3's and 7's" appear in the track list
 4. test both tracks to verify the play
 
-Test Case #2: LittleBigPlanet
+## Test Case #2: LittleBigPlanet
 1. boot the game
 2. Continue through the data/patch install process
 3. Start the intro level
@@ -28,7 +28,7 @@ Notes:
 - You can also check the DLC by launching the Turbo level.
 
 
-Test Case #3: Buzz! Quiz World
+## Test Case #3: Buzz! Quiz World
 1. launch game
 2. create profile if required
 3. on the main menu, select quiz packs
@@ -38,7 +38,7 @@ Notes:
 - there is no UMD version of this title
 - You can play test the quiz packs by selecting Quiz packs from the single player game menu
 
-Test Case #4: Patapon
+## Test Case #4: Patapon
 1. launch game
 2. Play through the intro level until you get to the cavernous hideout
 3. Use the master obelisk to access the world map
@@ -56,3 +56,13 @@ Test Case 5: TG16 titles
 Note:
 - These games use DLC mechanics to load their roms.  So if DLC loading fails they will hang at the loading screen.
 
+## Test Case 6: Tekken6
+Tekken 6 uses a data install feature that may interact with DLC handling code.  
+This test validates that the data install feature works and that the installed data is usable.
+
+1. launch the game
+2. proceed to create a profile
+3. proceed to the main menu
+4. Under options, select Install
+5. exit and restart the game
+6. proceed to game play.  If this test fails, you will see a popup that the data install cannot be read.
